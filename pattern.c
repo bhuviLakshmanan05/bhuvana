@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,c;
+clrscr();
+for(i=1;i<=4;i++)
+ {
+  if(i==1||i==3)
+  {
+    for(j=1;j<=i;j++)
+    {
+    c=0;
+    if(j%2==0)
+    printf("%d\t",c+1);
+    else 
+    printf("%d\t",c);
+    }
+  }
+  else
+  {
+     for(j=1;j<=i;j++)
+     {
+      c=0;
+      if(j%2==0)
+      printf("%d\t",c);
+     else
+     printf("%d\t",c+1);
+    }
+  } 
+    printf("\n");
+  }
+  getch();
+}
