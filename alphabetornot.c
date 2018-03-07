@@ -6,7 +6,7 @@ int main(void) {
 	if(((c>='a')&&(c<='z'))||((c>='A')&&(c<='Z')))
 	printf("\nALPHABET");
 	else
-   printf("\nNOT A ALPHABET");	
+   printf("\nNO");	
     
 	
 	return 0;
